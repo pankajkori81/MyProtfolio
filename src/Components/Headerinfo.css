@@ -1,0 +1,82 @@
+
+
+.portfolio-part{
+    text-align: center;
+}
+
+.portfolio-part img{
+    margin-top: 5%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+.portfolio-part h1{
+    font-size: 55px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 990px;
+    margin-top: 14px;
+    margin-left: 25%;
+   
+}
+
+.portfolio-part h1 span{
+  text-shadow: 2px  2px  #ffffffc2;
+  color: aqua;
+}
+
+.portfolio-part p{
+    margin-top: 15px;
+    margin-left: 30%;
+    color: #fff;
+    font-size: 22px;
+    width: 760px;
+}
+
+
+.portfolio-part .btn1{
+    
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 25px;
+    margin-right: 20px;
+    background-color: #111;
+    color: #fff;
+    border:1px solid #ffffff8e;
+    border-radius: 20px;
+
+}
+
+
+.portfolio-part .btn1:hover{
+
+    background-image: linear-gradient( to right ,rgb(243, 59, 90) , rgb(236, 11, 11));
+    transition: .5s;
+}
+
+.portfolio-part .btn2{
+    font-size: 19px;
+    padding: 8px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background-color: #111;
+    color: #fff;
+    border:1px solid #ffffff8e;
+    border-radius: 20px;
+}
+
+.portfolio-part .btn2:hover{
+    transition: .5s;
+    background-image: linear-gradient(to right , teal , rgb(209, 66, 0));
+}
+
+
+.border-line{
+    border: 1px solid #dddddd5d;
+    margin-top: 6%;
+    margin-left: 25%;
+    width: 920px;
+    
+}
