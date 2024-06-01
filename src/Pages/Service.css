@@ -1,0 +1,137 @@
+
+.service-head{
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+.services{
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+.service-card{
+   
+    width: 400px;
+    height: 200px;
+    color: aliceblue;
+    border: 1px solid #dddddd81;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 4px; 
+    margin-left: 6%;
+    margin-right: 3%;
+    margin-top: 3%;
+     
+
+}
+
+.service-card h1{
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.service-card h2{
+    text-align: center;
+    margin-top: 4px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right , rgb(218, 27, 59) , rgb(204, 82, 0));
+
+}
+
+.service-card p{
+    margin-top: 8px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.service-card button{
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: royalblue;
+    padding: 3px;
+    border-radius: 3px;
+    color: #ddd;
+    border: none;
+    outline: none;
+
+}
+
+
+
+
+@media screen and (max-width:600px) {
+
+
+.service-head{
+    color: aliceblue;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+.services{
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+.service-card{
+   
+    width: 400px;
+    height: 220px;
+    color: aliceblue;
+    border: 1px solid #dddddd81;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 4px; 
+    margin-left: 6%;
+    margin-right: 3%;
+    margin-top: 3%;
+     
+
+}
+
+.service-card h1{
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.service-card h2{
+    text-align: center;
+    margin-top: 4px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right , rgb(218, 27, 59) , rgb(204, 82, 0));
+
+}
+
+.service-card p{
+    margin-top: 8px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.service-card button{
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: royalblue;
+    padding: 3px;
+    border-radius: 3px;
+    color: #ddd;
+    border: none;
+    outline: none;
+
+}
+
+    
+}
