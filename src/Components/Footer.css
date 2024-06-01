@@ -1,0 +1,191 @@
+
+.main-footer{
+    background-color: rgb(0, 0, 32);
+    margin-top: 5%;
+    height: 440px;
+   
+}
+
+.foot-logo {
+    display: flex;
+}
+
+.foot-logo img{
+    width: 200px;
+    height: 160px;
+    margin-left: 20px;
+}
+
+
+.social-media{
+    gap: 5rem;
+    margin-left: 48%;
+    margin-top: 50px;
+    
+}
+
+.social-media .media{
+    color: #ddd;
+    font-size: 19px;
+    padding: 5px;
+    border-radius: 5px;
+   
+    margin-left: 18%;
+    
+   
+}
+
+.media:hover{
+
+    background-image: linear-gradient(to right , #b43900 , rgb(19, 18, 18));
+    
+}
+
+
+.lists{
+ color: #ddd;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ 
+} 
+
+.list-card{
+    cursor: pointer;
+    color: #ddd;
+    margin-top: 2%;
+    
+}
+.list-card li{
+    cursor: pointer;
+    font-size: 17px;
+    list-style-type: none;
+    margin-top: 8px;
+}
+
+
+.term_conds {
+ 
+    cursor: pointer;
+    margin-top: 3.5%;
+    margin-left:6%;
+    color: #ddd;
+    font-size: 16px;
+}
+
+.term_conds ul {
+   display: flex;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left:60%;
+    color: #ddd;
+    font-size: 16px;
+    gap: 3rem;
+}
+.term_conds li{
+    list-style-type: none;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+
+.main-footer{
+    background-color: rgb(0, 0, 32);
+    margin-top: 5%;
+   width: auto;
+    height: 570px;
+
+   
+}
+
+.foot-logo {
+    display: flex;
+
+}
+
+.foot-logo img{
+    width: 130px;
+    height: 120px;
+    margin-left: 16px;
+}
+
+
+.social-media{
+    gap: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top:26%;
+    margin-bottom: 10px;
+    margin-left: -26%;
+}
+
+.social-media .media{
+    color: #ddd;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 5px;
+     margin-left: -2%;
+    
+    
+   
+}
+
+.media:hover{
+
+    background-image: linear-gradient(to right , #b43900 , rgb(19, 18, 18));
+    
+}
+
+
+.lists{
+ color: #ddd;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ 
+} 
+
+.list-card{
+    cursor: pointer;
+    color: #ddd;
+    margin-top: 8%;
+   
+    
+}
+.list-card li{
+    cursor: pointer;
+    font-size: 17px;
+    list-style-type: none;
+    margin-top: 8px;
+}
+
+
+.term_conds {
+ 
+    cursor: pointer;
+    margin-top: 5.8%;
+    margin-left:8%;
+    color: #ddd;
+    font-size: 17px;
+}
+
+.term_conds ul {
+   display: flex;
+   justify-content: space-evenly;
+   /* flex-wrap: wrap; */
+    cursor: pointer;
+    margin-top: 4%;
+    margin-left:0%;
+    color: #ddd;
+    font-size: 16px;
+    gap: 2rem;
+}
+.term_conds li{
+    list-style-type: none;
+}
+
+
+    
+}
