@@ -1,0 +1,219 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #111;
+}
+
+
+
+ .logo{
+   background-color: rgb(19, 97, 90);
+ }
+
+ .logo img{
+   width: 170px;
+   height: 120px;
+   margin-left: 20px;
+ }
+ 
+ 
+ .navbar{
+   display: flex;
+ }
+
+ .navbar ul{
+     display: flex;
+      position: absolute;
+      top: 35px;
+      left:35%;
+      cursor: pointer;
+      text-decoration: none;
+      list-style-type: none;
+      gap: 5rem;
+  }
+ 
+
+
+
+ a{
+    text-decoration:none;
+ }
+ 
+.nav1 {
+    color: #fff;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif
+
+ }
+ .nav1:hover{
+    background-color: black;
+     text-align: center;
+    padding: 5px;
+    box-shadow: 2px 3px 3px #111;
+    border-radius: 15px;
+    transition: .4s;
+
+ }
+
+ .nav2{
+    color: #fff;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 95px;
+    padding: 6px;
+    border: 1px solid rgba(255, 204, 204, 0.568);
+    border-radius: 16px;
+    
+ }
+
+ .nav2:hover{
+    /* background-color: rgb(201, 97, 0); */
+    background-image: linear-gradient(to right , rgb(240, 58, 88) , red);
+    padding: 5px;
+    box-shadow: 2px 3px 3px #111;
+    border-radius: 15px;
+    transition: .5s;
+    
+ }
+
+ .navbar .menu{
+   display: none;
+   position: absolute;
+   top: 0.75rem;
+   right: 0.5rem;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 2.2rem;
+   height: 2rem;
+
+ }
+
+ .navbar .menu span{
+   height: 0.4rem;
+   width: 100%;
+   background-color: #fff;
+   border-radius: .2rem;
+ }
+
+
+
+
+ 
+@media screen and (max-width:600px) {
+
+   body{
+      background-image: linear-gradient(to right , rgb(2, 2, 2)  ,rgb(22, 22, 24));
+   }
+   
+
+
+ .logo img{
+   width: 120px;
+   height: 100px;
+   margin-left: 20px;
+ }
+
+
+  
+ .navbar{
+   /* display: flex; */
+   flex-direction: column;
+   align-items: start;
+ }
+
+ .navbar .menu{
+   display: flex;
+ }
+ 
+
+
+ .navbar ul{
+   display: none;
+flex-direction: column;
+width: 100%;
+margin-bottom: .25rem;
+   text-align: center;
+     flex-direction: column;
+     width: 100%;
+     background-color: rgb(180, 66, 0);
+      position: absolute;
+      top: 10%;
+      left:0%;
+      cursor: pointer;
+      text-decoration: none;
+      list-style-type: none;
+      gap: 3.5rem;
+      padding: 10px;
+  }
+ 
+.navbar ul.open{
+   display: flex;
+}
+
+
+ a{
+   
+    text-decoration:none;
+ }
+ 
+.nav1 {
+    color: #fff;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    
+   
+
+ }
+ .nav1:hover{
+   width: 100%;
+    background-color: black;
+     text-align: center;
+    padding: 5px;
+    box-shadow: 2px 3px 3px #111;
+    border-radius: 15px;
+    transition: .4s;
+
+ }
+
+ .nav2{
+    margin-left:5px;
+    color: #fff;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif; 
+    padding: 5px;
+    border: 1px solid rgba(255, 204, 204, 0.568);
+    border-radius: 16px;
+    
+ }
+
+ .nav2:hover{
+    /* background-color: rgb(201, 97, 0); */
+    background-image: linear-gradient(to right , rgb(240, 58, 88) , red);
+    padding: 5px;
+    box-shadow: 2px 3px 3px #111;
+    border-radius: 15px;
+    transition: .5s;
+    
+ }
+
+
+ 
+
+
+}
+ 
+
+
+
+
+
+ 
