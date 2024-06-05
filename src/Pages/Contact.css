@@ -1,4 +1,9 @@
 
+.head-contact{
+    color: #fff;
+    font-size: 55px;
+}
+
 
 .main-contact{
     display: flex;
@@ -134,4 +139,158 @@
 .contact button:hover{
     transition: .4s;
     background-color: rgb(235, 27, 0);
+}
+
+
+
+
+@media screen and (max-width:480px) {
+
+    .head-contact{
+        font-size: 25px;
+        color: #fff;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .main-contact{
+        display: flex;
+      
+    }
+    
+    .design-box{
+        width: 120px;
+        height: 32px;
+        background-color: rgb(150, 0, 150);
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        z-index: -1;
+        border-radius: 54px 0px 40px ;
+    }
+    
+    .contact-left{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    
+    
+    .contact-details h1{
+        font-size: 32px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 8%;
+        padding: 20px;
+        margin-left: 3%;
+    }
+    
+    .contact-details p{
+        width: 280px;
+        align-items: center;
+        font-size: 17px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        color: #fff;
+        margin-left: 10%;
+        
+    }
+    
+    .contact-details .email{
+        margin-top: 30px;
+    }
+    
+    .contact-details .contact-num{
+        margin-top: 30px;
+    }
+    
+    .contact-details .location{
+        margin-top: 30px;
+    }
+    
+    
+    
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 610px;
+        color: aliceblue;
+        background-color: rgb(0, 54, 54);
+        border-radius: 5px;
+        box-shadow: 4px 6px 5px #111;
+        padding: 20px;
+        margin-left: -88%;
+        margin-top: 27rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact label{
+        width: 100%;
+        margin-top: 15px;
+        font-size: 18px;
+       
+       
+    }
+    
+    .contact input{
+        width: 100%;
+        font-size: 16px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        padding: 15px;
+        margin-top: 12px;
+        margin-bottom: 25px;
+        border: .5px solid rgba(0, 0, 0, 0.452);
+        outline: none;
+        color: #fff;
+        background-color: #535a5a;
+        
+    }
+    
+    .contact input::placeholder{
+       color: #bdffff;
+    }
+    
+    
+    .contact textarea{
+        width: 100%;
+        font-size: 16px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        padding: 10px;
+        margin-top: 12px;
+        margin-bottom: 25px;
+        outline: none;
+        color: #fff;
+        background-color: #535a5a;
+        
+    
+    }
+    
+    .contact textarea::placeholder{
+        color: #bdffff;
+     }
+     
+    
+    .contact button{
+        width: 100%;
+        padding: 8px;
+        border: none;
+        outline: none;
+        color: #fff;
+        background-color: teal;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 800;
+    }
+    
+    
+    .contact button:hover{
+        transition: .4s;
+        background-color: rgb(235, 27, 0);
+    }
+    
+    
 }
